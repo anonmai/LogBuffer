@@ -1,0 +1,863 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCESS_RIGHTS_D_B_BIT	constants.h	402;"	d
+ACCESS_RIGHTS_L_BIT	constants.h	401;"	d
+ACCESS_RIGHTS_MASK	constants.h	398;"	d
+ACCESS_RIGHTS_P_BIT	constants.h	400;"	d
+ACCESS_RIGHTS_UNUSABLE_BIT	constants.h	399;"	d
+CPUID_1	constants.h	33;"	d
+CPUID_1_EBX_NUMOFLP_1	constants.h	35;"	d
+CPUID_1_EBX_NUMOFLP_MASK	constants.h	34;"	d
+CPUID_1_ECX_PCID_BIT	constants.h	37;"	d
+CPUID_1_ECX_VMX_BIT	constants.h	36;"	d
+CPUID_1_ECX_X2APIC_BIT	constants.h	38;"	d
+CPUID_1_EDX_APIC_BIT	constants.h	43;"	d
+CPUID_1_EDX_MSR_BIT	constants.h	41;"	d
+CPUID_1_EDX_MTRR_BIT	constants.h	45;"	d
+CPUID_1_EDX_PAE_BIT	constants.h	42;"	d
+CPUID_1_EDX_PAT_BIT	constants.h	46;"	d
+CPUID_1_EDX_PSE_BIT	constants.h	39;"	d
+CPUID_1_EDX_SEP_BIT	constants.h	44;"	d
+CPUID_1_EDX_TSC_BIT	constants.h	40;"	d
+CPUID_4_EAX_NUMOFCORES_MASK	constants.h	48;"	d
+CPUID_4_EAX_NUMOFTHREADS_MASK	constants.h	47;"	d
+CPUID_7_EBX_INVPCID_BIT	constants.h	49;"	d
+CPUID_EXT_0	constants.h	50;"	d
+CPUID_EXT_1	constants.h	51;"	d
+CPUID_EXT_1_ECX_SVM_BIT	constants.h	52;"	d
+CPUID_EXT_1_EDX_64_BIT	constants.h	54;"	d
+CPUID_EXT_1_EDX_PAGE1GB_BIT	constants.h	53;"	d
+CPUID_EXT_7	constants.h	55;"	d
+CPUID_EXT_7_EDX_TSCINVARIANT_BIT	constants.h	56;"	d
+CPUID_EXT_8	constants.h	57;"	d
+CPUID_EXT_8_EAX_PHYSADDRSIZE_MASK	constants.h	58;"	d
+CPUID_EXT_A	constants.h	59;"	d
+CPUID_EXT_A_EDX_FLUSH_BY_ASID_BIT	constants.h	63;"	d
+CPUID_EXT_A_EDX_NP_BIT	constants.h	60;"	d
+CPUID_EXT_A_EDX_NRIP_SAVE_BIT	constants.h	62;"	d
+CPUID_EXT_A_EDX_SVM_LOCK_BIT	constants.h	61;"	d
+CR0_AM_BIT	constants.h	661;"	d
+CR0_CD_BIT	constants.h	663;"	d
+CR0_EM_BIT	constants.h	656;"	d
+CR0_ET_BIT	constants.h	658;"	d
+CR0_MP_BIT	constants.h	655;"	d
+CR0_NE_BIT	constants.h	659;"	d
+CR0_NW_BIT	constants.h	662;"	d
+CR0_PE_BIT	constants.h	654;"	d
+CR0_PG_BIT	constants.h	664;"	d
+CR0_TS_BIT	constants.h	657;"	d
+CR0_WP_BIT	constants.h	660;"	d
+CR3_PCD_BIT	constants.h	667;"	d
+CR3_PWT_BIT	constants.h	666;"	d
+CR4_DE_BIT	constants.h	672;"	d
+CR4_MCE_BIT	constants.h	675;"	d
+CR4_OSFXSR_BIT	constants.h	678;"	d
+CR4_OSXMMEXCPT_BIT	constants.h	679;"	d
+CR4_OSXSAVE_BIT	constants.h	681;"	d
+CR4_PAE_BIT	constants.h	674;"	d
+CR4_PCE_BIT	constants.h	677;"	d
+CR4_PGE_BIT	constants.h	676;"	d
+CR4_PSE_BIT	constants.h	673;"	d
+CR4_PVI_BIT	constants.h	670;"	d
+CR4_TSD_BIT	constants.h	671;"	d
+CR4_VME_BIT	constants.h	669;"	d
+CR4_VMXE_BIT	constants.h	680;"	d
+CURRENT_PATH	Makefile	/^CURRENT_PATH := $(shell pwd)             #当前所在的路径$/;"	m
+DEBUGCTLMSR_BTF	msr-extra.h	12;"	d
+DEBUGCTLMSR_BTINT	msr-extra.h	15;"	d
+DEBUGCTLMSR_BTS	msr-extra.h	14;"	d
+DEBUGCTLMSR_BTS_OFF_OS	msr-extra.h	16;"	d
+DEBUGCTLMSR_BTS_OFF_USR	msr-extra.h	17;"	d
+DEBUGCTLMSR_FREEZE_LBRS_ON_PMI	msr-extra.h	18;"	d
+DEBUGCTLMSR_LBR	msr-extra.h	11;"	d
+DEBUGCTLMSR_TR	msr-extra.h	13;"	d
+EPT_VIOLATION_EXIT_QUAL_WRITE_BIT	msr-extra.h	6;"	d
+EXCEPTION_AC	constants.h	746;"	d
+EXCEPTION_BP	constants.h	733;"	d
+EXCEPTION_BR	constants.h	735;"	d
+EXCEPTION_COPROCESSOR_SEGMENT_OVERRUN	constants.h	739;"	d
+EXCEPTION_DB	constants.h	731;"	d
+EXCEPTION_DE	constants.h	730;"	d
+EXCEPTION_DF	constants.h	738;"	d
+EXCEPTION_ERR_EXT_BIT	constants.h	760;"	d
+EXCEPTION_ERR_IDT_BIT	constants.h	761;"	d
+EXCEPTION_ERR_SEL_MASK	constants.h	763;"	d
+EXCEPTION_ERR_SEL_SHIFT	constants.h	764;"	d
+EXCEPTION_ERR_TI_BIT	constants.h	762;"	d
+EXCEPTION_GP	constants.h	743;"	d
+EXCEPTION_MC	constants.h	747;"	d
+EXCEPTION_MF	constants.h	745;"	d
+EXCEPTION_NM	constants.h	737;"	d
+EXCEPTION_NMI	constants.h	732;"	d
+EXCEPTION_NP	constants.h	741;"	d
+EXCEPTION_OF	constants.h	734;"	d
+EXCEPTION_PF	constants.h	744;"	d
+EXCEPTION_SS	constants.h	742;"	d
+EXCEPTION_SX	constants.h	749;"	d
+EXCEPTION_TS	constants.h	740;"	d
+EXCEPTION_UD	constants.h	736;"	d
+EXCEPTION_XM	constants.h	748;"	d
+EXIT_REASON_ACCESS_GDTR_OR_IDTR	constants.h	456;"	d
+EXIT_REASON_ACCESS_LDTR_OR_TR	constants.h	457;"	d
+EXIT_REASON_APIC_ACCESS	constants.h	454;"	d
+EXIT_REASON_APIC_WRITE	constants.h	466;"	d
+EXIT_REASON_CPUID	constants.h	418;"	d
+EXIT_REASON_ENTFAIL_GUEST_STATE	constants.h	441;"	d
+EXIT_REASON_ENTFAIL_MACHINE_CHK	constants.h	449;"	d
+EXIT_REASON_ENTFAIL_MSR_LOADING	constants.h	442;"	d
+EXIT_REASON_EPT_MISCONFIG	constants.h	459;"	d
+EXIT_REASON_EPT_VIOLATION	constants.h	458;"	d
+EXIT_REASON_EXCEPTION_OR_NMI	constants.h	408;"	d
+EXIT_REASON_EXTERNAL_INT	constants.h	409;"	d
+EXIT_REASON_GETSEC	constants.h	419;"	d
+EXIT_REASON_HLT	constants.h	420;"	d
+EXIT_REASON_INIT_SIGNAL	constants.h	411;"	d
+EXIT_REASON_INTERRUPT_WINDOW	constants.h	415;"	d
+EXIT_REASON_INVD	constants.h	421;"	d
+EXIT_REASON_INVEPT	constants.h	460;"	d
+EXIT_REASON_INVLPG	constants.h	422;"	d
+EXIT_REASON_INVPCID	constants.h	468;"	d
+EXIT_REASON_INVVPID	constants.h	463;"	d
+EXIT_REASON_IO_INSTRUCTION	constants.h	438;"	d
+EXIT_REASON_IO_SMI	constants.h	413;"	d
+EXIT_REASON_MASK	constants.h	407;"	d
+EXIT_REASON_MONITOR	constants.h	447;"	d
+EXIT_REASON_MONITOR_TRAP_FLAG	constants.h	445;"	d
+EXIT_REASON_MOV_CR	constants.h	436;"	d
+EXIT_REASON_MOV_DR	constants.h	437;"	d
+EXIT_REASON_MWAIT	constants.h	444;"	d
+EXIT_REASON_NMI_WINDOW	constants.h	416;"	d
+EXIT_REASON_OTHER_SMI	constants.h	414;"	d
+EXIT_REASON_PAUSE	constants.h	448;"	d
+EXIT_REASON_RDMSR	constants.h	439;"	d
+EXIT_REASON_RDPMC	constants.h	423;"	d
+EXIT_REASON_RDRAND	constants.h	467;"	d
+EXIT_REASON_RDTSC	constants.h	424;"	d
+EXIT_REASON_RDTSCP	constants.h	461;"	d
+EXIT_REASON_RSM	constants.h	425;"	d
+EXIT_REASON_STARTUP_IPI	constants.h	412;"	d
+EXIT_REASON_TASK_SWITCH	constants.h	417;"	d
+EXIT_REASON_TPR_BELOW_THRESHOLD	constants.h	451;"	d
+EXIT_REASON_TRIPLE_FAULT	constants.h	410;"	d
+EXIT_REASON_VIRTUALIZED_EOI	constants.h	455;"	d
+EXIT_REASON_VMCALL	constants.h	426;"	d
+EXIT_REASON_VMCLEAR	constants.h	427;"	d
+EXIT_REASON_VMENTRY_FAILURE_BIT	constants.h	453;"	d
+EXIT_REASON_VMEXIT_FROM_VMX_ROOT_OPERATION_BIT	constants.h	452;"	d
+EXIT_REASON_VMFUNC	constants.h	469;"	d
+EXIT_REASON_VMLAUNCH	constants.h	428;"	d
+EXIT_REASON_VMPTRLD	constants.h	429;"	d
+EXIT_REASON_VMPTRST	constants.h	430;"	d
+EXIT_REASON_VMREAD	constants.h	431;"	d
+EXIT_REASON_VMRESUME	constants.h	432;"	d
+EXIT_REASON_VMWRITE	constants.h	433;"	d
+EXIT_REASON_VMXOFF	constants.h	434;"	d
+EXIT_REASON_VMXON	constants.h	435;"	d
+EXIT_REASON_VMX_PREEMPT_TIMER	constants.h	462;"	d
+EXIT_REASON_WBINVD	constants.h	464;"	d
+EXIT_REASON_WRMSR	constants.h	440;"	d
+EXIT_REASON_XSETBV	constants.h	465;"	d
+HXVM_ENOSYS	hxvm_hypercall.h	5;"	d
+HXVM_HCOK	hxvm_hypercall.h	6;"	d
+HXVM_HYPERCALL	hxvm_hypercall.h	19;"	d
+HYPERCALL_REGISTER	hxvm_hypercall.h	10;"	d
+HYPERCALL_SWITCH_EPTP	hxvm_hypercall.h	12;"	d
+HYPERCALL_TEST	hxvm_hypercall.h	9;"	d
+HYPERCALL_UNREGISTER	hxvm_hypercall.h	11;"	d
+LBRBUF_ORD	hello.c	20;"	d	file:
+LBR_FAR	msr-extra.h	47;"	d
+LBR_FAR_BIT	msr-extra.h	39;"	d
+LBR_IND_CALL	msr-extra.h	43;"	d
+LBR_IND_CALL_BIT	msr-extra.h	35;"	d
+LBR_IND_JMP	msr-extra.h	46;"	d
+LBR_IND_JMP_BIT	msr-extra.h	37;"	d
+LBR_JCC	msr-extra.h	41;"	d
+LBR_JCC_BIT	msr-extra.h	33;"	d
+LBR_KERNEL_BIT	msr-extra.h	31;"	d
+LBR_REL_CALL	msr-extra.h	42;"	d
+LBR_REL_CALL_BIT	msr-extra.h	34;"	d
+LBR_REL_JMP	msr-extra.h	45;"	d
+LBR_REL_JMP_BIT	msr-extra.h	38;"	d
+LBR_RETURN	msr-extra.h	44;"	d
+LBR_RETURN_BIT	msr-extra.h	36;"	d
+LBR_USER	msr-extra.h	40;"	d
+LBR_USER_BIT	msr-extra.h	32;"	d
+LINUX_KERNEL	Makefile	/^LINUX_KERNEL := $(shell uname -r)        #内核的版本号$/;"	m
+LINUX_KERNEL_PATH	Makefile	/^LINUX_KERNEL_PATH := \/usr\/src\/linux-4.2\/$/;"	m
+MSR_AMD_CSTAR	constants.h	151;"	d
+MSR_AMD_SYSCFG	constants.h	161;"	d
+MSR_AMD_SYSCFG_MTRRFIXDRAMEN_BIT	constants.h	162;"	d
+MSR_AMD_SYSCFG_MTRRFIXDRAMMODEN_BIT	constants.h	163;"	d
+MSR_AMD_SYSCFG_MTRRTOM2EN_BIT	constants.h	164;"	d
+MSR_AMD_SYSCFG_TOM2FORCEMEMTYPEWB_BIT	constants.h	165;"	d
+MSR_AMD_TOP_MEM2	constants.h	166;"	d
+MSR_AMD_TOP_MEM2_ADDR_MASK	constants.h	167;"	d
+MSR_AMD_VM_CR	constants.h	156;"	d
+MSR_AMD_VM_CR_DIS_A20M_BIT	constants.h	158;"	d
+MSR_AMD_VM_CR_LOCK_BIT	constants.h	159;"	d
+MSR_AMD_VM_CR_R_INIT_BIT	constants.h	157;"	d
+MSR_AMD_VM_CR_SVMDIS_BIT	constants.h	160;"	d
+MSR_AMD_VM_HSAVE_PA	constants.h	168;"	d
+MSR_ARCH_PERFMON_PERFCTR0	msr-extra.h	25;"	d
+MSR_CORE_PERF_GLOBAL_CTRL	msr-extra.h	22;"	d
+MSR_CORE_PERF_GLOBAL_OVF_CTRL	msr-extra.h	26;"	d
+MSR_CORE_PERF_GLOBAL_STATUS	msr-extra.h	27;"	d
+MSR_IA32_APIC_BASE_MSR	constants.h	65;"	d
+MSR_IA32_APIC_BASE_MSR_APIC_BASE_MASK	constants.h	68;"	d
+MSR_IA32_APIC_BASE_MSR_APIC_GLOBAL_ENABLE_BIT	constants.h	67;"	d
+MSR_IA32_APIC_BASE_MSR_ENABLE_X2APIC_BIT	constants.h	66;"	d
+MSR_IA32_BIOS_SIGN_ID	constants.h	73;"	d
+MSR_IA32_BIOS_UPDT_TRIG	constants.h	72;"	d
+MSR_IA32_DEBUGCTLMSR	msr-extra.h	10;"	d
+MSR_IA32_EFER	constants.h	142;"	d
+MSR_IA32_EFER_FFXSR_BIT	constants.h	148;"	d
+MSR_IA32_EFER_LMA_BIT	constants.h	145;"	d
+MSR_IA32_EFER_LME_BIT	constants.h	144;"	d
+MSR_IA32_EFER_NXE_BIT	constants.h	146;"	d
+MSR_IA32_EFER_SCE_BIT	constants.h	143;"	d
+MSR_IA32_EFER_SVME_BIT	constants.h	147;"	d
+MSR_IA32_FEATURE_CONTROL	constants.h	69;"	d
+MSR_IA32_FEATURE_CONTROL_LOCK_BIT	constants.h	70;"	d
+MSR_IA32_FEATURE_CONTROL_VMXON_BIT	constants.h	71;"	d
+MSR_IA32_FMASK	constants.h	152;"	d
+MSR_IA32_FS_BASE	constants.h	153;"	d
+MSR_IA32_GS_BASE	constants.h	154;"	d
+MSR_IA32_KERNEL_GS_BASE	constants.h	155;"	d
+MSR_IA32_LSTAR	constants.h	150;"	d
+MSR_IA32_MTRRCAP	constants.h	74;"	d
+MSR_IA32_MTRRCAP_FIX_BIT	constants.h	76;"	d
+MSR_IA32_MTRRCAP_VCNT_MASK	constants.h	75;"	d
+MSR_IA32_MTRRCAP_WC_BIT	constants.h	77;"	d
+MSR_IA32_MTRR_DEF_TYPE	constants.h	117;"	d
+MSR_IA32_MTRR_DEF_TYPE_E_BIT	constants.h	120;"	d
+MSR_IA32_MTRR_DEF_TYPE_FE_BIT	constants.h	119;"	d
+MSR_IA32_MTRR_DEF_TYPE_TYPE_MASK	constants.h	118;"	d
+MSR_IA32_MTRR_FIX16K_80000	constants.h	106;"	d
+MSR_IA32_MTRR_FIX16K_A0000	constants.h	107;"	d
+MSR_IA32_MTRR_FIX4K_C0000	constants.h	108;"	d
+MSR_IA32_MTRR_FIX4K_C8000	constants.h	109;"	d
+MSR_IA32_MTRR_FIX4K_D0000	constants.h	110;"	d
+MSR_IA32_MTRR_FIX4K_D8000	constants.h	111;"	d
+MSR_IA32_MTRR_FIX4K_E0000	constants.h	112;"	d
+MSR_IA32_MTRR_FIX4K_E8000	constants.h	113;"	d
+MSR_IA32_MTRR_FIX4K_F0000	constants.h	114;"	d
+MSR_IA32_MTRR_FIX4K_F8000	constants.h	115;"	d
+MSR_IA32_MTRR_FIX64K_00000	constants.h	105;"	d
+MSR_IA32_MTRR_PHYSBASE0	constants.h	81;"	d
+MSR_IA32_MTRR_PHYSBASE0_PHYSBASE_MASK	constants.h	83;"	d
+MSR_IA32_MTRR_PHYSBASE0_TYPE_MASK	constants.h	82;"	d
+MSR_IA32_MTRR_PHYSBASE1	constants.h	87;"	d
+MSR_IA32_MTRR_PHYSBASE2	constants.h	89;"	d
+MSR_IA32_MTRR_PHYSBASE3	constants.h	91;"	d
+MSR_IA32_MTRR_PHYSBASE4	constants.h	93;"	d
+MSR_IA32_MTRR_PHYSBASE5	constants.h	95;"	d
+MSR_IA32_MTRR_PHYSBASE6	constants.h	97;"	d
+MSR_IA32_MTRR_PHYSBASE7	constants.h	99;"	d
+MSR_IA32_MTRR_PHYSBASE8	constants.h	101;"	d
+MSR_IA32_MTRR_PHYSBASE9	constants.h	103;"	d
+MSR_IA32_MTRR_PHYSMASK0	constants.h	84;"	d
+MSR_IA32_MTRR_PHYSMASK0_PHYSMASK_MASK	constants.h	86;"	d
+MSR_IA32_MTRR_PHYSMASK0_V_BIT	constants.h	85;"	d
+MSR_IA32_MTRR_PHYSMASK1	constants.h	88;"	d
+MSR_IA32_MTRR_PHYSMASK2	constants.h	90;"	d
+MSR_IA32_MTRR_PHYSMASK3	constants.h	92;"	d
+MSR_IA32_MTRR_PHYSMASK4	constants.h	94;"	d
+MSR_IA32_MTRR_PHYSMASK5	constants.h	96;"	d
+MSR_IA32_MTRR_PHYSMASK6	constants.h	98;"	d
+MSR_IA32_MTRR_PHYSMASK7	constants.h	100;"	d
+MSR_IA32_MTRR_PHYSMASK8	constants.h	102;"	d
+MSR_IA32_MTRR_PHYSMASK9	constants.h	104;"	d
+MSR_IA32_PAT	constants.h	116;"	d
+MSR_IA32_STAR	constants.h	149;"	d
+MSR_IA32_SYSENTER_CS	constants.h	78;"	d
+MSR_IA32_SYSENTER_EIP	constants.h	80;"	d
+MSR_IA32_SYSENTER_ESP	constants.h	79;"	d
+MSR_IA32_TIME_STAMP_COUNTER	constants.h	64;"	d
+MSR_IA32_VMX_BASIC	constants.h	121;"	d
+MSR_IA32_VMX_BASIC_TRUE_CTLS_BIT	constants.h	122;"	d
+MSR_IA32_VMX_CR0_FIXED0	constants.h	127;"	d
+MSR_IA32_VMX_CR0_FIXED1	constants.h	128;"	d
+MSR_IA32_VMX_CR4_FIXED0	constants.h	129;"	d
+MSR_IA32_VMX_CR4_FIXED1	constants.h	130;"	d
+MSR_IA32_VMX_ENTRY_CTLS	constants.h	126;"	d
+MSR_IA32_VMX_EPT_VPID_CAP	constants.h	132;"	d
+MSR_IA32_VMX_EPT_VPID_CAP_EPTSTRUCT_WB_BIT	constants.h	134;"	d
+MSR_IA32_VMX_EPT_VPID_CAP_INVEPT_ALL_CONTEXT_BIT	constants.h	136;"	d
+MSR_IA32_VMX_EPT_VPID_CAP_INVEPT_BIT	constants.h	135;"	d
+MSR_IA32_VMX_EPT_VPID_CAP_INVVPID_BIT	constants.h	137;"	d
+MSR_IA32_VMX_EPT_VPID_CAP_INVVPID_SINGLE_CONTEXT_BIT	constants.h	138;"	d
+MSR_IA32_VMX_EPT_VPID_CAP_PAGEWALK_LENGTH_4_BIT	constants.h	133;"	d
+MSR_IA32_VMX_EXIT_CTLS	constants.h	125;"	d
+MSR_IA32_VMX_PINBASED_CTLS	constants.h	123;"	d
+MSR_IA32_VMX_PROCBASED_CTLS	constants.h	124;"	d
+MSR_IA32_VMX_PROCBASED_CTLS2	constants.h	131;"	d
+MSR_IA32_VMX_TRUE_PROCBASED_CTLS	constants.h	139;"	d
+MSR_IA32_X2APIC_ICR	constants.h	141;"	d
+MSR_IA32_X2APIC_SIVR	constants.h	140;"	d
+MSR_LBR_CORE_FROM	msr-extra.h	52;"	d
+MSR_LBR_CORE_TO	msr-extra.h	53;"	d
+MSR_LBR_NHM_FROM	msr-extra.h	50;"	d
+MSR_LBR_NHM_TO	msr-extra.h	51;"	d
+MSR_LBR_SELECT	msr-extra.h	30;"	d
+MSR_LBR_TOS	msr-extra.h	49;"	d
+MSR_P6_EVNTSEL0	msr-extra.h	23;"	d
+MSR_P6_EVNTSEL1	msr-extra.h	24;"	d
+NUM_OF_INT	constants.h	752;"	d
+NUM_OF_IOPORT	constants.h	751;"	d
+PAGEFAULT_ERR_ID_BIT	constants.h	758;"	d
+PAGEFAULT_ERR_P_BIT	constants.h	754;"	d
+PAGEFAULT_ERR_RSVD_BIT	constants.h	757;"	d
+PAGEFAULT_ERR_US_BIT	constants.h	756;"	d
+PAGEFAULT_ERR_WR_BIT	constants.h	755;"	d
+PAGESIZE	constants.h	766;"	d
+PAGESIZE1G	constants.h	769;"	d
+PAGESIZE1G_MASK	constants.h	777;"	d
+PAGESIZE1G_SHIFT	constants.h	773;"	d
+PAGESIZE2M	constants.h	767;"	d
+PAGESIZE2M_MASK	constants.h	775;"	d
+PAGESIZE2M_SHIFT	constants.h	771;"	d
+PAGESIZE4M	constants.h	768;"	d
+PAGESIZE4M_MASK	constants.h	776;"	d
+PAGESIZE4M_SHIFT	constants.h	772;"	d
+PAGESIZE_MASK	constants.h	774;"	d
+PAGESIZE_SHIFT	constants.h	770;"	d
+PDE_2M_ADDR_MASK	constants.h	709;"	d
+PDE_2M_OFFSET_MASK	constants.h	708;"	d
+PDE_2M_PAT_BIT	constants.h	707;"	d
+PDE_4K_ADDR_MASK	constants.h	701;"	d
+PDE_4M_ADDR_MASK	constants.h	706;"	d
+PDE_4M_OFFSET_MASK	constants.h	705;"	d
+PDE_4M_PAT_BIT	constants.h	704;"	d
+PDE_ADDR_MASK64	constants.h	710;"	d
+PDE_ATTR_MASK	constants.h	702;"	d
+PDE_AVAILABLE1_BIT	constants.h	696;"	d
+PDE_AVAILABLE2_BIT	constants.h	697;"	d
+PDE_AVAILABLE3_BIT	constants.h	698;"	d
+PDE_AVAILABLE_MASK	constants.h	699;"	d
+PDE_A_BIT	constants.h	692;"	d
+PDE_D_BIT	constants.h	693;"	d
+PDE_G_BIT	constants.h	695;"	d
+PDE_NX_BIT	constants.h	700;"	d
+PDE_PCD_BIT	constants.h	691;"	d
+PDE_PS_BIT	constants.h	694;"	d
+PDE_PS_PAT_BIT	constants.h	703;"	d
+PDE_PWT_BIT	constants.h	690;"	d
+PDE_P_BIT	constants.h	687;"	d
+PDE_RW_BIT	constants.h	688;"	d
+PDE_US_BIT	constants.h	689;"	d
+PIT_CONTROL	constants.h	782;"	d
+PIT_CONTROL_16BIT	constants.h	794;"	d
+PIT_CONTROL_BCD	constants.h	784;"	d
+PIT_CONTROL_BINARY	constants.h	783;"	d
+PIT_CONTROL_COUNTER0	constants.h	795;"	d
+PIT_CONTROL_COUNTER1	constants.h	796;"	d
+PIT_CONTROL_COUNTER2	constants.h	797;"	d
+PIT_CONTROL_HIGH8BIT	constants.h	793;"	d
+PIT_CONTROL_LATCH	constants.h	791;"	d
+PIT_CONTROL_LOW8BIT	constants.h	792;"	d
+PIT_CONTROL_MODE0	constants.h	785;"	d
+PIT_CONTROL_MODE1	constants.h	786;"	d
+PIT_CONTROL_MODE2	constants.h	787;"	d
+PIT_CONTROL_MODE3	constants.h	788;"	d
+PIT_CONTROL_MODE4	constants.h	789;"	d
+PIT_CONTROL_MODE5	constants.h	790;"	d
+PIT_CONTROL_READBACK	constants.h	798;"	d
+PIT_COUNTER0	constants.h	779;"	d
+PIT_COUNTER1	constants.h	780;"	d
+PIT_COUNTER2	constants.h	781;"	d
+PTE_ADDR_MASK	constants.h	726;"	d
+PTE_ADDR_MASK64	constants.h	728;"	d
+PTE_ATTR_MASK	constants.h	727;"	d
+PTE_AVAILABLE1_BIT	constants.h	721;"	d
+PTE_AVAILABLE2_BIT	constants.h	722;"	d
+PTE_AVAILABLE3_BIT	constants.h	723;"	d
+PTE_AVAILABLE_MASK	constants.h	724;"	d
+PTE_A_BIT	constants.h	717;"	d
+PTE_D_BIT	constants.h	718;"	d
+PTE_G_BIT	constants.h	720;"	d
+PTE_NX_BIT	constants.h	725;"	d
+PTE_PAT_BIT	constants.h	719;"	d
+PTE_PCD_BIT	constants.h	716;"	d
+PTE_PWT_BIT	constants.h	715;"	d
+PTE_P_BIT	constants.h	712;"	d
+PTE_RW_BIT	constants.h	713;"	d
+PTE_US_BIT	constants.h	714;"	d
+RFLAGS_AC_BIT	constants.h	632;"	d
+RFLAGS_AF_BIT	constants.h	617;"	d
+RFLAGS_ALWAYS1_BIT	constants.h	636;"	d
+RFLAGS_CF_BIT	constants.h	615;"	d
+RFLAGS_DF_BIT	constants.h	622;"	d
+RFLAGS_ID_BIT	constants.h	635;"	d
+RFLAGS_IF_BIT	constants.h	621;"	d
+RFLAGS_IOPL_0	constants.h	625;"	d
+RFLAGS_IOPL_1	constants.h	626;"	d
+RFLAGS_IOPL_2	constants.h	627;"	d
+RFLAGS_IOPL_3	constants.h	628;"	d
+RFLAGS_IOPL_MASK	constants.h	624;"	d
+RFLAGS_NONSYS_MASK	constants.h	647;"	d
+RFLAGS_NT_BIT	constants.h	629;"	d
+RFLAGS_OF_BIT	constants.h	623;"	d
+RFLAGS_PF_BIT	constants.h	616;"	d
+RFLAGS_RF_BIT	constants.h	630;"	d
+RFLAGS_SF_BIT	constants.h	619;"	d
+RFLAGS_SYS_MASK	constants.h	637;"	d
+RFLAGS_TF_BIT	constants.h	620;"	d
+RFLAGS_VIF_BIT	constants.h	633;"	d
+RFLAGS_VIP_BIT	constants.h	634;"	d
+RFLAGS_VM_BIT	constants.h	631;"	d
+RFLAGS_ZF_BIT	constants.h	618;"	d
+SEL_LDT_BIT	constants.h	404;"	d
+SEL_MASK	constants.h	405;"	d
+SEL_PRIV_MASK	constants.h	403;"	d
+SET_LBRBUF	hello.c	16;"	d	file:
+START_LBRPMU	hello.c	18;"	d	file:
+STAT_EXIT_REASON_MAX	msr-extra.h	7;"	d
+STOP_LBRPMU	hello.c	19;"	d	file:
+UNSET_LBRBUF	hello.c	17;"	d	file:
+VMCS_ADDR_IOBMP_A	constants.h	193;"	d
+VMCS_ADDR_IOBMP_A_HIGH	constants.h	194;"	d
+VMCS_ADDR_IOBMP_B	constants.h	195;"	d
+VMCS_ADDR_IOBMP_B_HIGH	constants.h	196;"	d
+VMCS_ADDR_MSRBMP	constants.h	197;"	d
+VMCS_ADDR_MSRBMP_HIGH	constants.h	198;"	d
+VMCS_CR0_GUESTHOST_MASK	constants.h	296;"	d
+VMCS_CR0_READ_SHADOW	constants.h	298;"	d
+VMCS_CR3_TARGET_COUNT	constants.h	248;"	d
+VMCS_CR3_TARGET_VALUE_0	constants.h	300;"	d
+VMCS_CR3_TARGET_VALUE_1	constants.h	301;"	d
+VMCS_CR3_TARGET_VALUE_2	constants.h	302;"	d
+VMCS_CR3_TARGET_VALUE_3	constants.h	303;"	d
+VMCS_CR4_GUESTHOST_MASK	constants.h	297;"	d
+VMCS_CR4_READ_SHADOW	constants.h	299;"	d
+VMCS_EPT_PAGEWALK_LENGTH_4	constants.h	394;"	d
+VMCS_EPT_POINTER	constants.h	211;"	d
+VMCS_EPT_POINTER_EPT_WB	constants.h	393;"	d
+VMCS_EPT_POINTER_HIGH	constants.h	212;"	d
+VMCS_EXCEPTION_BMP	constants.h	245;"	d
+VMCS_EXEC_VMCS_POINTER	constants.h	205;"	d
+VMCS_EXEC_VMCS_POINTER_HIGH	constants.h	206;"	d
+VMCS_EXIT_QUALIFICATION	constants.h	306;"	d
+VMCS_EXIT_REASON	constants.h	260;"	d
+VMCS_GUEST_ACTIVITY_STATE	constants.h	288;"	d
+VMCS_GUEST_ACTIVITY_STATE_ACTIVE	constants.h	389;"	d
+VMCS_GUEST_ACTIVITY_STATE_HLT	constants.h	390;"	d
+VMCS_GUEST_ACTIVITY_STATE_SHUTDOWN	constants.h	391;"	d
+VMCS_GUEST_ACTIVITY_STATE_WAIT_FOR_SIPI	constants.h	392;"	d
+VMCS_GUEST_CR0	constants.h	314;"	d
+VMCS_GUEST_CR3	constants.h	315;"	d
+VMCS_GUEST_CR4	constants.h	316;"	d
+VMCS_GUEST_CS_ACCESS_RIGHTS	constants.h	280;"	d
+VMCS_GUEST_CS_BASE	constants.h	318;"	d
+VMCS_GUEST_CS_LIMIT	constants.h	270;"	d
+VMCS_GUEST_CS_SEL	constants.h	175;"	d
+VMCS_GUEST_DR7	constants.h	327;"	d
+VMCS_GUEST_DS_ACCESS_RIGHTS	constants.h	282;"	d
+VMCS_GUEST_DS_BASE	constants.h	320;"	d
+VMCS_GUEST_DS_LIMIT	constants.h	272;"	d
+VMCS_GUEST_DS_SEL	constants.h	177;"	d
+VMCS_GUEST_ES_ACCESS_RIGHTS	constants.h	279;"	d
+VMCS_GUEST_ES_BASE	constants.h	317;"	d
+VMCS_GUEST_ES_LIMIT	constants.h	269;"	d
+VMCS_GUEST_ES_SEL	constants.h	174;"	d
+VMCS_GUEST_FS_ACCESS_RIGHTS	constants.h	283;"	d
+VMCS_GUEST_FS_BASE	constants.h	321;"	d
+VMCS_GUEST_FS_LIMIT	constants.h	273;"	d
+VMCS_GUEST_FS_SEL	constants.h	178;"	d
+VMCS_GUEST_GDTR_BASE	constants.h	325;"	d
+VMCS_GUEST_GDTR_LIMIT	constants.h	277;"	d
+VMCS_GUEST_GS_ACCESS_RIGHTS	constants.h	284;"	d
+VMCS_GUEST_GS_BASE	constants.h	322;"	d
+VMCS_GUEST_GS_LIMIT	constants.h	274;"	d
+VMCS_GUEST_GS_SEL	constants.h	179;"	d
+VMCS_GUEST_IA32_DEBUGCTL	constants.h	221;"	d
+VMCS_GUEST_IA32_DEBUGCTL	msr-extra.h	57;"	d
+VMCS_GUEST_IA32_DEBUGCTL_HIGH	constants.h	222;"	d
+VMCS_GUEST_IA32_DEBUGCTL_HIGH	msr-extra.h	58;"	d
+VMCS_GUEST_IA32_EFER	constants.h	225;"	d
+VMCS_GUEST_IA32_EFER_HIGH	constants.h	226;"	d
+VMCS_GUEST_IA32_PAT	constants.h	223;"	d
+VMCS_GUEST_IA32_PAT_HIGH	constants.h	224;"	d
+VMCS_GUEST_IA32_PERF_GLOBAL_CTRL	msr-extra.h	60;"	d
+VMCS_GUEST_IA32_PERF_GLOBAL_CTRL_HIGH	msr-extra.h	61;"	d
+VMCS_GUEST_IA32_SYSENTER_CS	constants.h	290;"	d
+VMCS_GUEST_IA32_SYSENTER_EIP	constants.h	333;"	d
+VMCS_GUEST_IA32_SYSENTER_ESP	constants.h	332;"	d
+VMCS_GUEST_IDTR_BASE	constants.h	326;"	d
+VMCS_GUEST_IDTR_LIMIT	constants.h	278;"	d
+VMCS_GUEST_INTERRUPTIBILITY_STATE	constants.h	287;"	d
+VMCS_GUEST_INTERRUPTIBILITY_STATE_BLOCKING_BY_MOV_SS_BIT	constants.h	350;"	d
+VMCS_GUEST_INTERRUPTIBILITY_STATE_BLOCKING_BY_NMI_BIT	constants.h	352;"	d
+VMCS_GUEST_INTERRUPTIBILITY_STATE_BLOCKING_BY_SMI_BIT	constants.h	351;"	d
+VMCS_GUEST_INTERRUPTIBILITY_STATE_BLOCKING_BY_STI_BIT	constants.h	349;"	d
+VMCS_GUEST_LDTR_ACCESS_RIGHTS	constants.h	285;"	d
+VMCS_GUEST_LDTR_BASE	constants.h	323;"	d
+VMCS_GUEST_LDTR_LIMIT	constants.h	275;"	d
+VMCS_GUEST_LDTR_SEL	constants.h	180;"	d
+VMCS_GUEST_LINEAR_ADDR	constants.h	311;"	d
+VMCS_GUEST_PDPTE0	constants.h	227;"	d
+VMCS_GUEST_PDPTE0_HIGH	constants.h	228;"	d
+VMCS_GUEST_PDPTE1	constants.h	229;"	d
+VMCS_GUEST_PDPTE1_HIGH	constants.h	230;"	d
+VMCS_GUEST_PDPTE2	constants.h	231;"	d
+VMCS_GUEST_PDPTE2_HIGH	constants.h	232;"	d
+VMCS_GUEST_PDPTE3	constants.h	233;"	d
+VMCS_GUEST_PDPTE3_HIGH	constants.h	234;"	d
+VMCS_GUEST_PENDING_DEBUG_EXCEPTIONS	constants.h	331;"	d
+VMCS_GUEST_PHYSICAL_ADDRESS	constants.h	215;"	d
+VMCS_GUEST_PHYSICAL_ADDRESS_HIGH	constants.h	216;"	d
+VMCS_GUEST_RFLAGS	constants.h	330;"	d
+VMCS_GUEST_RIP	constants.h	329;"	d
+VMCS_GUEST_RSP	constants.h	328;"	d
+VMCS_GUEST_SMBASE	constants.h	289;"	d
+VMCS_GUEST_SS_ACCESS_RIGHTS	constants.h	281;"	d
+VMCS_GUEST_SS_BASE	constants.h	319;"	d
+VMCS_GUEST_SS_LIMIT	constants.h	271;"	d
+VMCS_GUEST_SS_SEL	constants.h	176;"	d
+VMCS_GUEST_TR_ACCESS_RIGHTS	constants.h	286;"	d
+VMCS_GUEST_TR_BASE	constants.h	324;"	d
+VMCS_GUEST_TR_LIMIT	constants.h	276;"	d
+VMCS_GUEST_TR_SEL	constants.h	181;"	d
+VMCS_HOST_CR0	constants.h	336;"	d
+VMCS_HOST_CR3	constants.h	337;"	d
+VMCS_HOST_CR4	constants.h	338;"	d
+VMCS_HOST_CS_SEL	constants.h	185;"	d
+VMCS_HOST_DS_SEL	constants.h	187;"	d
+VMCS_HOST_ES_SEL	constants.h	184;"	d
+VMCS_HOST_FS_BASE	constants.h	339;"	d
+VMCS_HOST_FS_SEL	constants.h	188;"	d
+VMCS_HOST_GDTR_BASE	constants.h	342;"	d
+VMCS_HOST_GS_BASE	constants.h	340;"	d
+VMCS_HOST_GS_SEL	constants.h	189;"	d
+VMCS_HOST_IA32_EFER	constants.h	239;"	d
+VMCS_HOST_IA32_EFER_HIGH	constants.h	240;"	d
+VMCS_HOST_IA32_PAT	constants.h	237;"	d
+VMCS_HOST_IA32_PAT_HIGH	constants.h	238;"	d
+VMCS_HOST_IA32_PERF_GLOBAL_CTRL	msr-extra.h	63;"	d
+VMCS_HOST_IA32_PERF_GLOBAL_CTRL_HIGH	msr-extra.h	64;"	d
+VMCS_HOST_IA32_SYSENTER_CS	constants.h	293;"	d
+VMCS_HOST_IA32_SYSENTER_EIP	constants.h	345;"	d
+VMCS_HOST_IA32_SYSENTER_ESP	constants.h	344;"	d
+VMCS_HOST_IDTR_BASE	constants.h	343;"	d
+VMCS_HOST_RIP	constants.h	347;"	d
+VMCS_HOST_RSP	constants.h	346;"	d
+VMCS_HOST_SS_SEL	constants.h	186;"	d
+VMCS_HOST_TR_BASE	constants.h	341;"	d
+VMCS_HOST_TR_SEL	constants.h	190;"	d
+VMCS_IDT_VECTORING_ERRCODE	constants.h	264;"	d
+VMCS_IDT_VECTORING_INFO_FIELD	constants.h	263;"	d
+VMCS_IO_RCX	constants.h	307;"	d
+VMCS_IO_RDI	constants.h	309;"	d
+VMCS_IO_RIP	constants.h	310;"	d
+VMCS_IO_RSI	constants.h	308;"	d
+VMCS_PAGEFAULT_ERRCODE_MASK	constants.h	246;"	d
+VMCS_PAGEFAULT_ERRCODE_MATCH	constants.h	247;"	d
+VMCS_PIN_BASED_VMEXEC_CTL	constants.h	243;"	d
+VMCS_PIN_BASED_VMEXEC_CTL_EXINTEXIT_BIT	constants.h	353;"	d
+VMCS_PIN_BASED_VMEXEC_CTL_NMIEXIT_BIT	constants.h	354;"	d
+VMCS_PIN_BASED_VMEXEC_CTL_VIRTNMIS_BIT	constants.h	355;"	d
+VMCS_PROC_BASED_VMEXEC_CTL	constants.h	244;"	d
+VMCS_PROC_BASED_VMEXEC_CTL2	constants.h	258;"	d
+VMCS_PROC_BASED_VMEXEC_CTL2_ENABLE_EPT_BIT	constants.h	384;"	d
+VMCS_PROC_BASED_VMEXEC_CTL2_ENABLE_RDTSCP_BIT	constants.h	385;"	d
+VMCS_PROC_BASED_VMEXEC_CTL2_ENABLE_VPID_BIT	constants.h	386;"	d
+VMCS_PROC_BASED_VMEXEC_CTL2_ENABLE_XSAVES_BIT	constants.h	388;"	d
+VMCS_PROC_BASED_VMEXEC_CTL2_UNRESTRICTED_GUEST_BIT	constants.h	387;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_ACTIVATECTLS2_BIT	constants.h	375;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_CR3LOADEXIT_BIT	constants.h	363;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_CR3STOREEXIT_BIT	constants.h	364;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_CR8LOADEXIT_BIT	constants.h	365;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_CR8STOREEXIT_BIT	constants.h	366;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_HLTEXIT_BIT	constants.h	358;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_INTRWINEXIT_BIT	constants.h	356;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_INVLPGEXIT_BIT	constants.h	359;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_MONITOREXIT_BIT	constants.h	373;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_MOVDREXIT_BIT	constants.h	369;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_MWAITEXIT_BIT	constants.h	360;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_NMIWINEXIT_BIT	constants.h	368;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_PAUSEEXIT_BIT	constants.h	374;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_RDPMCEXIT_BIT	constants.h	361;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_RDTSCEXIT_BIT	constants.h	362;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_UNCONDIOEXIT_BIT	constants.h	370;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_USEIOBMP_BIT	constants.h	371;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_USEMSRBMP_BIT	constants.h	372;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_USETPRSHADOW_BIT	constants.h	367;"	d
+VMCS_PROC_BASED_VMEXEC_CTL_USETSCOFF_BIT	constants.h	357;"	d
+VMCS_REGION_SIZE	constants.h	397;"	d
+VMCS_TPR_THRESHOLD	constants.h	257;"	d
+VMCS_TSC_OFFSET	constants.h	207;"	d
+VMCS_TSC_OFFSET_HIGH	constants.h	208;"	d
+VMCS_VIRT_APIC_PAGE_ADDR	constants.h	209;"	d
+VMCS_VIRT_APIC_PAGE_ADDR_HIGH	constants.h	210;"	d
+VMCS_VMCS_LINK_POINTER	constants.h	219;"	d
+VMCS_VMCS_LINK_POINTER_HIGH	constants.h	220;"	d
+VMCS_VMENTRY_CTL	constants.h	252;"	d
+VMCS_VMENTRY_CTL_64_GUEST_BIT	constants.h	381;"	d
+VMCS_VMENTRY_CTL_LOAD_DEBUG_CTRL_BIT	msr-extra.h	69;"	d
+VMCS_VMENTRY_CTL_LOAD_IA32_EFER_BIT	constants.h	383;"	d
+VMCS_VMENTRY_CTL_LOAD_IA32_PAT_BIT	constants.h	382;"	d
+VMCS_VMENTRY_CTL_LOAD_PERF_GLOBAL_CTRL_BIT	msr-extra.h	70;"	d
+VMCS_VMENTRY_EXCEPTION_ERRCODE	constants.h	255;"	d
+VMCS_VMENTRY_INSTRUCTION_LEN	constants.h	256;"	d
+VMCS_VMENTRY_INTR_INFO_FIELD	constants.h	254;"	d
+VMCS_VMENTRY_MSRLOAD_ADDR	constants.h	203;"	d
+VMCS_VMENTRY_MSRLOAD_ADDR_HIGH	constants.h	204;"	d
+VMCS_VMENTRY_MSR_LOAD_COUNT	constants.h	253;"	d
+VMCS_VMEXIT_CTL	constants.h	249;"	d
+VMCS_VMEXIT_CTL_HOST_ADDRESS_SPACE_SIZE_BIT	constants.h	376;"	d
+VMCS_VMEXIT_CTL_LOAD_IA32_EFER_BIT	constants.h	380;"	d
+VMCS_VMEXIT_CTL_LOAD_IA32_PAT_BIT	constants.h	378;"	d
+VMCS_VMEXIT_CTL_LOAD_PERF_GLOBAL_CTRL_BIT	msr-extra.h	67;"	d
+VMCS_VMEXIT_CTL_SAVE_DEBUG_CTRL_BIT	msr-extra.h	66;"	d
+VMCS_VMEXIT_CTL_SAVE_IA32_EFER_BIT	constants.h	379;"	d
+VMCS_VMEXIT_CTL_SAVE_IA32_PAT_BIT	constants.h	377;"	d
+VMCS_VMEXIT_INSTRUCTION_LEN	constants.h	265;"	d
+VMCS_VMEXIT_INTR_ERRCODE	constants.h	262;"	d
+VMCS_VMEXIT_INTR_INFO	constants.h	261;"	d
+VMCS_VMEXIT_MSRLOAD_ADDR	constants.h	201;"	d
+VMCS_VMEXIT_MSRLOAD_ADDR_HIGH	constants.h	202;"	d
+VMCS_VMEXIT_MSRSTORE_ADDR	constants.h	199;"	d
+VMCS_VMEXIT_MSRSTORE_ADDR_HIGH	constants.h	200;"	d
+VMCS_VMEXIT_MSR_LOAD_COUNT	constants.h	251;"	d
+VMCS_VMEXIT_MSR_STORE_COUNT	constants.h	250;"	d
+VMCS_VMX_INSTRUCTION_INFO	constants.h	266;"	d
+VMCS_VM_INSTRUCTION_ERR	constants.h	259;"	d
+VMCS_VPID	constants.h	171;"	d
+VMEXIT_CLGI	constants.h	604;"	d
+VMEXIT_CPUID	constants.h	585;"	d
+VMEXIT_CR0_READ	constants.h	471;"	d
+VMEXIT_CR0_SEL_WRITE	constants.h	572;"	d
+VMEXIT_CR0_WRITE	constants.h	487;"	d
+VMEXIT_CR10_READ	constants.h	481;"	d
+VMEXIT_CR10_WRITE	constants.h	497;"	d
+VMEXIT_CR11_READ	constants.h	482;"	d
+VMEXIT_CR11_WRITE	constants.h	498;"	d
+VMEXIT_CR12_READ	constants.h	483;"	d
+VMEXIT_CR12_WRITE	constants.h	499;"	d
+VMEXIT_CR13_READ	constants.h	484;"	d
+VMEXIT_CR13_WRITE	constants.h	500;"	d
+VMEXIT_CR14_READ	constants.h	485;"	d
+VMEXIT_CR14_WRITE	constants.h	501;"	d
+VMEXIT_CR15_READ	constants.h	486;"	d
+VMEXIT_CR15_WRITE	constants.h	502;"	d
+VMEXIT_CR1_READ	constants.h	472;"	d
+VMEXIT_CR1_WRITE	constants.h	488;"	d
+VMEXIT_CR2_READ	constants.h	473;"	d
+VMEXIT_CR2_WRITE	constants.h	489;"	d
+VMEXIT_CR3_READ	constants.h	474;"	d
+VMEXIT_CR3_WRITE	constants.h	490;"	d
+VMEXIT_CR4_READ	constants.h	475;"	d
+VMEXIT_CR4_WRITE	constants.h	491;"	d
+VMEXIT_CR5_READ	constants.h	476;"	d
+VMEXIT_CR5_WRITE	constants.h	492;"	d
+VMEXIT_CR6_READ	constants.h	477;"	d
+VMEXIT_CR6_WRITE	constants.h	493;"	d
+VMEXIT_CR7_READ	constants.h	478;"	d
+VMEXIT_CR7_WRITE	constants.h	494;"	d
+VMEXIT_CR8_READ	constants.h	479;"	d
+VMEXIT_CR8_WRITE	constants.h	495;"	d
+VMEXIT_CR9_READ	constants.h	480;"	d
+VMEXIT_CR9_WRITE	constants.h	496;"	d
+VMEXIT_DR0_READ	constants.h	503;"	d
+VMEXIT_DR0_WRITE	constants.h	519;"	d
+VMEXIT_DR10_READ	constants.h	513;"	d
+VMEXIT_DR10_WRITE	constants.h	529;"	d
+VMEXIT_DR11_READ	constants.h	514;"	d
+VMEXIT_DR11_WRITE	constants.h	530;"	d
+VMEXIT_DR12_READ	constants.h	515;"	d
+VMEXIT_DR12_WRITE	constants.h	531;"	d
+VMEXIT_DR13_READ	constants.h	516;"	d
+VMEXIT_DR13_WRITE	constants.h	532;"	d
+VMEXIT_DR14_READ	constants.h	517;"	d
+VMEXIT_DR14_WRITE	constants.h	533;"	d
+VMEXIT_DR15_READ	constants.h	518;"	d
+VMEXIT_DR15_WRITE	constants.h	534;"	d
+VMEXIT_DR1_READ	constants.h	504;"	d
+VMEXIT_DR1_WRITE	constants.h	520;"	d
+VMEXIT_DR2_READ	constants.h	505;"	d
+VMEXIT_DR2_WRITE	constants.h	521;"	d
+VMEXIT_DR3_READ	constants.h	506;"	d
+VMEXIT_DR3_WRITE	constants.h	522;"	d
+VMEXIT_DR4_READ	constants.h	507;"	d
+VMEXIT_DR4_WRITE	constants.h	523;"	d
+VMEXIT_DR5_READ	constants.h	508;"	d
+VMEXIT_DR5_WRITE	constants.h	524;"	d
+VMEXIT_DR6_READ	constants.h	509;"	d
+VMEXIT_DR6_WRITE	constants.h	525;"	d
+VMEXIT_DR7_READ	constants.h	510;"	d
+VMEXIT_DR7_WRITE	constants.h	526;"	d
+VMEXIT_DR8_READ	constants.h	511;"	d
+VMEXIT_DR8_WRITE	constants.h	527;"	d
+VMEXIT_DR9_READ	constants.h	512;"	d
+VMEXIT_DR9_WRITE	constants.h	528;"	d
+VMEXIT_EXCP0	constants.h	535;"	d
+VMEXIT_EXCP1	constants.h	536;"	d
+VMEXIT_EXCP10	constants.h	545;"	d
+VMEXIT_EXCP11	constants.h	546;"	d
+VMEXIT_EXCP12	constants.h	547;"	d
+VMEXIT_EXCP13	constants.h	548;"	d
+VMEXIT_EXCP14	constants.h	549;"	d
+VMEXIT_EXCP15	constants.h	550;"	d
+VMEXIT_EXCP16	constants.h	551;"	d
+VMEXIT_EXCP17	constants.h	552;"	d
+VMEXIT_EXCP18	constants.h	553;"	d
+VMEXIT_EXCP19	constants.h	554;"	d
+VMEXIT_EXCP2	constants.h	537;"	d
+VMEXIT_EXCP20	constants.h	555;"	d
+VMEXIT_EXCP21	constants.h	556;"	d
+VMEXIT_EXCP22	constants.h	557;"	d
+VMEXIT_EXCP23	constants.h	558;"	d
+VMEXIT_EXCP24	constants.h	559;"	d
+VMEXIT_EXCP25	constants.h	560;"	d
+VMEXIT_EXCP26	constants.h	561;"	d
+VMEXIT_EXCP27	constants.h	562;"	d
+VMEXIT_EXCP28	constants.h	563;"	d
+VMEXIT_EXCP29	constants.h	564;"	d
+VMEXIT_EXCP3	constants.h	538;"	d
+VMEXIT_EXCP30	constants.h	565;"	d
+VMEXIT_EXCP31	constants.h	566;"	d
+VMEXIT_EXCP4	constants.h	539;"	d
+VMEXIT_EXCP5	constants.h	540;"	d
+VMEXIT_EXCP6	constants.h	541;"	d
+VMEXIT_EXCP7	constants.h	542;"	d
+VMEXIT_EXCP8	constants.h	543;"	d
+VMEXIT_EXCP9	constants.h	544;"	d
+VMEXIT_FERR_FREEZE	constants.h	597;"	d
+VMEXIT_GDTR_READ	constants.h	574;"	d
+VMEXIT_GDTR_WRITE	constants.h	578;"	d
+VMEXIT_HLT	constants.h	591;"	d
+VMEXIT_ICEBP	constants.h	607;"	d
+VMEXIT_IDTR_READ	constants.h	573;"	d
+VMEXIT_IDTR_WRITE	constants.h	577;"	d
+VMEXIT_INIT	constants.h	570;"	d
+VMEXIT_INTR	constants.h	567;"	d
+VMEXIT_INVALID	constants.h	613;"	d
+VMEXIT_INVD	constants.h	589;"	d
+VMEXIT_INVLPG	constants.h	592;"	d
+VMEXIT_INVLPGA	constants.h	593;"	d
+VMEXIT_IOIO	constants.h	594;"	d
+VMEXIT_IRET	constants.h	587;"	d
+VMEXIT_LDTR_READ	constants.h	575;"	d
+VMEXIT_LDTR_WRITE	constants.h	579;"	d
+VMEXIT_MONITOR	constants.h	609;"	d
+VMEXIT_MSR	constants.h	595;"	d
+VMEXIT_MWAIT	constants.h	610;"	d
+VMEXIT_MWAIT_CONDITIONAL	constants.h	611;"	d
+VMEXIT_NMI	constants.h	568;"	d
+VMEXIT_NPF	constants.h	612;"	d
+VMEXIT_PAUSE	constants.h	590;"	d
+VMEXIT_POPF	constants.h	584;"	d
+VMEXIT_PUSHF	constants.h	583;"	d
+VMEXIT_RDPMC	constants.h	582;"	d
+VMEXIT_RDTSC	constants.h	581;"	d
+VMEXIT_RDTSCP	constants.h	606;"	d
+VMEXIT_RSM	constants.h	586;"	d
+VMEXIT_SHUTDOWN	constants.h	598;"	d
+VMEXIT_SKINIT	constants.h	605;"	d
+VMEXIT_SMI	constants.h	569;"	d
+VMEXIT_STGI	constants.h	603;"	d
+VMEXIT_SWINT	constants.h	588;"	d
+VMEXIT_TASK_SWITCH	constants.h	596;"	d
+VMEXIT_TR_READ	constants.h	576;"	d
+VMEXIT_TR_WRITE	constants.h	580;"	d
+VMEXIT_VINTR	constants.h	571;"	d
+VMEXIT_VMLOAD	constants.h	601;"	d
+VMEXIT_VMMCALL	constants.h	600;"	d
+VMEXIT_VMRUN	constants.h	599;"	d
+VMEXIT_VMSAVE	constants.h	602;"	d
+VMEXIT_WBINVD	constants.h	608;"	d
+VMM_MINSTACKSIZE	constants.h	800;"	d
+VMXON_REGION_SIZE	constants.h	396;"	d
+XCR0_AVX_STATE_BIT	constants.h	685;"	d
+XCR0_SSE_STATE_BIT	constants.h	684;"	d
+XCR0_X87_STATE_BIT	constants.h	683;"	d
+_ASM_X86_MSR_INDEX_H	msr-extra.h	3;"	d
+_CORE_CONSTANTS_H	constants.h	31;"	d
+_CORE_DESC_H	desc.h	2;"	d
+_HX_ASM_H	asm.h	2;"	d
+__HX_HXVM_HYPERCALL_H	hxvm_hypercall.h	2;"	d
+a	desc.h	/^        struct { unsigned int a, b; };$/;"	m	struct:hxvm_desc_struct::__anon1::__anon2
+address	desc.h	/^    unsigned long address;$/;"	m	struct:hxvm_desc_ptr
+asm_cpuid	asm.h	/^static inline void asm_cpuid (u32 num, u32 numc,$/;"	f
+asm_invept	asm.h	/^static inline void asm_invept(int ext, u64 eptp, u64 rsvd)$/;"	f
+asm_lar	asm.h	/^static inline void asm_lar (u32 sel, ulong *ar)$/;"	f
+asm_lsl	asm.h	/^static inline void asm_lsl (u32 sel, ulong *limit)$/;"	f
+asm_rdcr0	asm.h	/^static inline unsigned long asm_rdcr0 (void)$/;"	f
+asm_rdcr2	asm.h	/^static inline unsigned long asm_rdcr2 (void)$/;"	f
+asm_rdcr3	asm.h	/^static inline unsigned long asm_rdcr3 (void)$/;"	f
+asm_rdcr4	asm.h	/^static inline unsigned long asm_rdcr4 (void)$/;"	f
+asm_rdcr8	asm.h	/^static inline void asm_rdcr8 (u64 *cr8)$/;"	f
+asm_rdcs	asm.h	/^static inline u16 asm_rdcs(void)$/;"	f
+asm_rddr7	asm.h	/^static inline void asm_rddr7 (ulong *dr7)$/;"	f
+asm_rdds	asm.h	/^static inline u16 asm_rdds(void)$/;"	f
+asm_rdes	asm.h	/^static inline u16 asm_rdes(void)$/;"	f
+asm_rdfs	asm.h	/^static inline u16 asm_rdfs(void)$/;"	f
+asm_rdgdtr	asm.h	/^static inline void asm_rdgdtr (struct hxvm_desc_ptr *ptr)$/;"	f
+asm_rdgs	asm.h	/^static inline u16 asm_rdgs(void)$/;"	f
+asm_rdidtr	asm.h	/^static inline void asm_rdidtr (struct hxvm_desc_ptr *ptr)$/;"	f
+asm_rdldtr	asm.h	/^static inline u16 asm_rdldtr(void)$/;"	f
+asm_rdmsr	asm.h	/^static inline void asm_rdmsr (ulong num,u64 *value)$/;"	f
+asm_rdmsr32	asm.h	/^static inline void asm_rdmsr32 (ulong num, u32 *a, u32 *d)  \/\/前面不加static，编译时会显示重定义,static仅在文件内使用的局部函数$/;"	f
+asm_rdmsr64	asm.h	/^static inline void asm_rdmsr64 (ulong num, u64 *value)$/;"	f
+asm_rdrflags	asm.h	/^static inline void asm_rdrflags (ulong *rflags)$/;"	f
+asm_rdss	asm.h	/^static inline u16 asm_rdss(void)$/;"	f
+asm_rdtr	asm.h	/^static inline u16 asm_rdtr(void)$/;"	f
+asm_vmclear	asm.h	/^static inline void asm_vmclear(void *p)$/;"	f
+asm_vmptrld	asm.h	/^static inline void asm_vmptrld (void *p)$/;"	f
+asm_vmread	asm.h	/^static inline void asm_vmread (ulong index, ulong *val)$/;"	f
+asm_vmwrite	asm.h	/^static inline void asm_vmwrite (ulong index, ulong val)$/;"	f
+asm_vmxon	asm.h	/^static inline void asm_vmxon (u64 * vmxon_region)$/;"	f
+asm_wrcr0	asm.h	/^static inline void asm_wrcr0 (u64 cr0)$/;"	f
+asm_wrcr2	asm.h	/^static inline void asm_wrcr2 (u64 cr2)$/;"	f
+asm_wrcr3	asm.h	/^static inline void asm_wrcr3 (u64 cr3)$/;"	f
+asm_wrcr4	asm.h	/^static inline void asm_wrcr4 (u64 cr4)$/;"	f
+asm_wrcr8	asm.h	/^static inline void asm_wrcr8 (u64 cr8)$/;"	f
+asm_wrmsr	asm.h	/^static inline void asm_wrmsr (ulong num, ulong value)$/;"	f
+asm_wrmsr32	asm.h	/^static inline void asm_wrmsr32 (ulong num, u32 a, u32 d)$/;"	f
+asm_wrmsr64	asm.h	/^static inline void asm_wrmsr64 (ulong num, u64 value)$/;"	f
+avl	desc.h	/^            unsigned limit: 4, avl: 1, l: 1, d: 1, g: 1, base2: 8;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+b	desc.h	/^        struct { unsigned int a, b; };$/;"	m	struct:hxvm_desc_struct::__anon1::__anon2
+base0	desc.h	/^            u16 base0;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+base0	desc.h	/^    u16 base0;$/;"	m	struct:hxvm_ldttss_desc64
+base1	desc.h	/^            unsigned base1: 8, type: 4, s: 1, dpl: 2, p: 1;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+base1	desc.h	/^    unsigned base1 : 8, type : 5, dpl : 2, p : 1;$/;"	m	struct:hxvm_ldttss_desc64
+base2	desc.h	/^            unsigned limit: 4, avl: 1, l: 1, d: 1, g: 1, base2: 8;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+base2	desc.h	/^    unsigned limit1 : 4, zero0 : 3, g : 1, base2 : 8;$/;"	m	struct:hxvm_ldttss_desc64
+base3	desc.h	/^    u32 base3;$/;"	m	struct:hxvm_ldttss_desc64
+bufsize	hello.c	/^ulong bufsize;$/;"	v
+d	desc.h	/^            unsigned limit: 4, avl: 1, l: 1, d: 1, g: 1, base2: 8;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+dpl	desc.h	/^            unsigned base1: 8, type: 4, s: 1, dpl: 2, p: 1;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+dpl	desc.h	/^    unsigned base1 : 8, type : 5, dpl : 2, p : 1;$/;"	m	struct:hxvm_ldttss_desc64
+g	desc.h	/^            unsigned limit: 4, avl: 1, l: 1, d: 1, g: 1, base2: 8;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+g	desc.h	/^    unsigned limit1 : 4, zero0 : 3, g : 1, base2 : 8;$/;"	m	struct:hxvm_ldttss_desc64
+gen_lapic_nmi	hello.c	/^gen_lapic_nmi(void)$/;"	f	file:
+hello_cleanup	hello.c	/^module_exit(hello_cleanup);     \/*离开内核的时候，调用hello_cleanup     *\/$/;"	v
+hello_cleanup	hello.c	/^static void __exit hello_cleanup(void)$/;"	f	file:
+hello_init	hello.c	/^module_init(hello_init);        \/*进入内核的时候，调用hello_init        *\/$/;"	v
+hello_init	hello.c	/^static int __init hello_init(void)$/;"	f	file:
+hxvm_desc_ptr	desc.h	/^struct hxvm_desc_ptr {$/;"	s
+hxvm_desc_struct	desc.h	/^struct hxvm_desc_struct {$/;"	s
+hxvm_get_desc_base	desc.h	/^static inline unsigned long hxvm_get_desc_base(const struct hxvm_desc_struct *desc)$/;"	f
+hxvm_hypercall0	hxvm_hypercall.h	/^static inline long hxvm_hypercall0(unsigned int nr)$/;"	f
+hxvm_hypercall1	hxvm_hypercall.h	/^static inline long hxvm_hypercall1(unsigned int nr, unsigned long *p1)$/;"	f
+hxvm_hypercall2	hxvm_hypercall.h	/^static inline long hxvm_hypercall2(unsigned int nr, unsigned long *p1,$/;"	f
+hxvm_hypercall3	hxvm_hypercall.h	/^static inline long hxvm_hypercall3(unsigned int nr, unsigned long *p1,$/;"	f
+hxvm_hypercall4	hxvm_hypercall.h	/^static inline long hxvm_hypercall4(unsigned int nr, unsigned long *p1,$/;"	f
+hxvm_ldttss_desc64	desc.h	/^struct hxvm_ldttss_desc64 {$/;"	s
+l	desc.h	/^            unsigned limit: 4, avl: 1, l: 1, d: 1, g: 1, base2: 8;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+lbrbuf	hello.c	/^ulong lbrbuf;$/;"	v
+limit	desc.h	/^            unsigned limit: 4, avl: 1, l: 1, d: 1, g: 1, base2: 8;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+limit0	desc.h	/^            u16 limit0;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+limit0	desc.h	/^    u16 limit0;$/;"	m	struct:hxvm_ldttss_desc64
+limit1	desc.h	/^    unsigned limit1 : 4, zero0 : 3, g : 1, base2 : 8;$/;"	m	struct:hxvm_ldttss_desc64
+p	desc.h	/^            unsigned base1: 8, type: 4, s: 1, dpl: 2, p: 1;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+p	desc.h	/^    unsigned base1 : 8, type : 5, dpl : 2, p : 1;$/;"	m	struct:hxvm_ldttss_desc64
+s	desc.h	/^            unsigned base1: 8, type: 4, s: 1, dpl: 2, p: 1;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+size	desc.h	/^    unsigned short size;$/;"	m	struct:hxvm_desc_ptr
+type	desc.h	/^            unsigned base1: 8, type: 4, s: 1, dpl: 2, p: 1;$/;"	m	struct:hxvm_desc_struct::__anon1::__anon3
+type	desc.h	/^    unsigned base1 : 8, type : 5, dpl : 2, p : 1;$/;"	m	struct:hxvm_ldttss_desc64
+zero0	desc.h	/^    unsigned limit1 : 4, zero0 : 3, g : 1, base2 : 8;$/;"	m	struct:hxvm_ldttss_desc64
+zero1	desc.h	/^    u32 zero1;$/;"	m	struct:hxvm_ldttss_desc64
